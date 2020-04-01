@@ -12,7 +12,8 @@ var driveTime = driveSlides*driveSmoothness;
 var followPoint = true;
 
 // ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 11;
+// Zoomlevel lower = zoomed out
+var followZoomLevel = 8;
 var followBearing = -47.20;
 var followPitch = 0;
 
