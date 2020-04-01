@@ -13,7 +13,7 @@ var followPoint = true;
 
 // ...If so, what zoom, pitch, and bearing should be used to follow?
 // Zoomlevel lower = zoomed out
-var followZoomLevel = 6;
+var followZoomLevel = 8;
 var followBearing = -47.20;
 var followPitch = 0;
 
