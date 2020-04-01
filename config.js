@@ -3,7 +3,7 @@
 var driveSlides = 7;
 
 // Number of points on drive route (more = higher quality, but slower to process)
-var driveSmoothness = 300;
+var driveSmoothness = 400;
 
 // Value used to drive
 var driveTime = driveSlides*driveSmoothness;
@@ -12,7 +12,7 @@ var driveTime = driveSlides*driveSmoothness;
 var followPoint = true;
 
 // ...If so, what zoom, pitch, and bearing should be used to follow?
-var followZoomLevel = 10;
+var followZoomLevel = 11;
 var followBearing = -47.20;
 var followPitch = 0;
 

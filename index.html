@@ -322,7 +322,8 @@ map.on("load", function() {
     scroller
     .setup({
         step: '.step',
-        offset: 0.5,
+        // original value .5
+        offset: 0.1,
         progress: true
     })
     .onStepEnter(response => {
